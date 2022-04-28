@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <h2>Counter</h2>
+    <h1 id="number" class="counterNumber">1</h1>
+    <div class="buttonRow">
+        <button id="decreaseButton" class="button" onclick="decreaseNumber(), countColorChanger()">Decrease</button>
+        <button id="resetButton" class="button" onclick="resetNumber(), countColorChanger()">Reset</button>
+        <button id="increaseButton" class="button" onclick="increaseNumber(), countColorChanger()">Increase</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

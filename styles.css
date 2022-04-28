@@ -1,0 +1,52 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+button,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonRow {
+  border-top: 2px solid #ebbab9;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.button {
+  width: 96px;
+  height: 36px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 4px;
+  border: #2a0c4e 2px solid;
+  background-color: white;
+  color: none;
+  margin: 0px 12px;
+}
+
+.button:hover {
+  background-color: rgba(42, 12, 78, 0.05);
+}
+
+.button:active {
+  background-color: rgba(42, 12, 78, 0.15);
+}
+
+.counterNumber {
+  font-size: 6em;
+  margin: 0;
+}
